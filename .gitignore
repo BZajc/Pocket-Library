@@ -1,0 +1,47 @@
+# Ignore WordPress core files
+/public/wp-admin/
+/public/wp-includes/
+/public/index.php
+/public/license.txt
+/public/readme.html
+/public/wp-*.php
+/public/xmlrpc.php
+
+# Ignore configuration files
+/public/wp-config.php
+
+# Ignore other unimportant files
+/public/.htaccess
+/public/.DS_Store
+
+# Ignore everything in the wp-content directory, except themes and plugins
+/public/wp-content/*
+!/public/wp-content/themes/
+!/public/wp-content/plugins/
+
+# Ignore specific wp-content subdirectories
+/public/wp-content/upgrade/
+/public/wp-content/uploads/
+/public/wp-content/mu-plugins/
+/public/wp-content/languages/
+
+# Ignore wp-content/themes and wp-content/plugins content that isn't yours
+/public/wp-content/plugins/*
+!/public/wp-content/plugins/your-plugin-name/
+
+/public/wp-content/themes/*
+!/public/wp-content/themes/your-theme-name/
+
+# Ignore node_modules and other development files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Sass/CSS source files (if any)
+*.sass-cache
+*.css.map
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
