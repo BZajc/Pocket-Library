@@ -1,0 +1,109 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "pl-white",
+          "color": "rgb(255,255,255)",
+          "name": "PLibrary White"
+        },
+        {
+          "slug": "pl-black",
+          "color": "rgb(0,0,0)",
+          "name": "PLibrary Black"
+        },
+        {
+          "slug": "pl-gray-100",
+          "color": "rgb(243 244 246)",
+          "name": "PLibrary Gray 100"
+        },
+        {
+          "slug": "pl-gray-200",
+          "color": "rgb(212 220 209)",
+          "name": "PLibrary Gray 200"
+        },
+        {
+          "slug": "pl-gray-300",
+          "color": "rgb(176, 179, 184)",
+          "name": "PLibrary Gray 300"
+        },
+        {
+          "slug": "pl-blue-100",
+          "color": "rgb(105 208 233)",
+          "name": "PLibrary Blue 100"
+        },
+        {
+          "slug": "pl-blue-200",
+          "color": "rgb(44 185 220)",
+          "name": "PLibrary Blue 200"
+        },
+        {
+          "slug": "pl-red-100",
+          "color": "rgb(242 85 85)",
+          "name": "PLibrary Red 100"
+        },
+        {
+          "slug": "pl-red-200",
+          "color": "rgb(240 39 39)",
+          "name": "PLibrary Red 200"
+        }
+      ],
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": true
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Playwrite US Trad, cursive",
+          "slug": "pl-playwrite",
+          "name": "Pocket Library Playwrite"
+        },
+        {
+          "fontFamily": "Lato, sans-serif",
+          "slug": "pl-lato",
+          "name": "Pocket Library Lato"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.75rem", "name": "Small" },
+        { "slug": "medium", "size": "1.25rem", "name": "Medium" },
+        { "slug": "large", "size": "2.25rem", "name": "Large" },
+        { "slug": "x-large", "size": "3rem", "name": "Extra Large" },
+        { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }
+      ],
+      "lineHeight": true
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": ["px", "rem", "vh", "vw", "%"],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--pl-lato)",
+      "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    }
+  }
+}

@@ -25,12 +25,12 @@
 /public/wp-content/mu-plugins/
 /public/wp-content/languages/
 
-# Ignore wp-content/themes and wp-content/plugins content that isn't yours
+# Ignore wp-content/themes and wp-content/plugins content that isn't mine
 /public/wp-content/plugins/*
-!/public/wp-content/plugins/your-plugin-name/
+!/public/wp-content/plugins/PLUGINNAME/
 
 /public/wp-content/themes/*
-!/public/wp-content/themes/your-theme-name/
+!/public/wp-content/themes/pocketlibrary/
 
 # Ignore node_modules and other development files
 node_modules/
