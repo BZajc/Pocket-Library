@@ -31,6 +31,11 @@
           "name": "PLibrary Gray 300"
         },
         {
+          "slug": "pl-gray-400",
+          "color": "rgb(145, 152, 148)",
+          "name": "PLibrary Gray 400"
+        },
+        {
           "slug": "pl-blue-100",
           "color": "rgb(105 208 233)",
           "name": "PLibrary Blue 100"
