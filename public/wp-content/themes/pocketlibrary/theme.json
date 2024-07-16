@@ -22,7 +22,7 @@
         },
         {
           "slug": "pl-gray-200",
-          "color": "rgb(212 220 209)",
+          "color": "rgb(205 203 200)",
           "name": "PLibrary Gray 200"
         },
         {
@@ -70,9 +70,9 @@
     "typography": {
       "fontFamilies": [
         {
-          "fontFamily": "Playwrite US Trad, cursive",
-          "slug": "pl-playwrite",
-          "name": "Pocket Library Playwrite"
+          "fontFamily": "Pacifico, cursive",
+          "slug": "pl-pacifico",
+          "name": "Pocket Library Pacifico"
         },
         {
           "fontFamily": "Lato, sans-serif",

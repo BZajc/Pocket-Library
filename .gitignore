@@ -27,7 +27,7 @@
 
 # Ignore wp-content/themes and wp-content/plugins content that isn't mine
 /public/wp-content/plugins/*
-!/public/wp-content/plugins/PLUGINNAME/
+!/public/wp-content/plugins/pocket-library-plus/
 
 /public/wp-content/themes/*
 !/public/wp-content/themes/pocketlibrary/
