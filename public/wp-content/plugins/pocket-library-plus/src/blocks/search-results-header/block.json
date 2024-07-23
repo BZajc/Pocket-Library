@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pocket-library-plus/search-results-header",
+  "title": "Search Results Header",
+  "category": "widgets",
+  "description": "Adds a header related to search query",
+  "keywords": ["search, header"],
+  "version": "1.0.0",
+  "textdomain": "pocket-library-plus",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "customText": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "style": "file:./index.css"
+}

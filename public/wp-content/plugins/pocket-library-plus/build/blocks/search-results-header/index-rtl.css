@@ -1,0 +1,8 @@
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/search-results-header/main.css ***!
+  \***********************************************************************************************************************************************************************************************/
+.wp-block-pocket-library-plus-search-results-header {
+    margin-top: 2rem !important;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid rgb(44, 185, 220);
+}

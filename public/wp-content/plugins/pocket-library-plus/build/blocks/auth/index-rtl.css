@@ -1,0 +1,29 @@
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/auth/main.css ***!
+  \******************************************************************************************************************************************************************************/
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-icon svg {
+  width: 36px;
+  height: 36px;
+  transition: scale 0.3s;
+}
+
+.auth-text {
+  color: rgb(105, 208, 233);
+  transition: color 0.3s;
+}
+
+.auth-container:hover .auth-text {
+  color: rgb(44, 185, 220);
+}
+
+.auth-container:hover .auth-icon svg {
+  scale: 1.2;
+}
+

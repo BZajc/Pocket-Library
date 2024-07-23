@@ -1,0 +1,69 @@
+.wp-block-pocket-library-plus-search-form {
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.search-form {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(105, 208, 233);
+  transition: border-bottom 0.3s;
+}
+
+.search-form-button:hover {
+  scale: 1.2;
+}
+
+.search-form::after,
+.search-form::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s;
+}
+
+.search-form::after {
+  left: 50%;
+}
+
+.search-form::before {
+  right: 50%;
+}
+
+.search-form:hover {
+  border-bottom: 2px solid transparent;
+}
+
+.search-form:hover::after,
+.search-form:hover::before {
+  width: 50%;
+}
+
+.search-form:hover::after,
+.search-form:hover::before {
+  width: 50%;
+}
+
+.search-form-input {
+  width: 100%;
+  border: 2px solid transparent;
+}
+
+.search-form-input:focus {
+  outline: none;
+}
+
+.search-form-button {
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 20px;
+  padding: 4px;
+  transition: scale 0.3s;
+  cursor: pointer;
+  outline: none;
+}

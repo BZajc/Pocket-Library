@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pocket-library-plus/search-form",
+  "title": "Search Form",
+  "category": "widgets",
+  "description": "Adds a search form",
+  "keywords": ["search form"],
+  "version": "1.0.0",
+  "textdomain": "pocket-library-plus",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "bgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  },
+  "style": "file:./index.css"
+}

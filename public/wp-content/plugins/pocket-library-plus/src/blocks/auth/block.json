@@ -1,0 +1,16 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "pocket-library-plus/auth",
+    "title": "Authentication",
+    "category": "text",
+    "icon": "",
+    "description": "Adds an authentication tool that handles registration and login",
+    "keywords": ["authentication", "registration", "login", "header"],
+    "version": "1.0.0",
+    "textdomain": "",
+    "editorScript": "file:./index.js",
+    "attributes": {
+    },
+    "style": "file:./index.css"
+  }

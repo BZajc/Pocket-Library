@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pocket-library-plus/example-block",
+  "title": "Example Block",
+  "category": "design",
+  "description": "Add an example block",
+  "keywords": [
+    "heading",
+    "example",
+    "text"
+  ],
+  "version": "1.0.0",
+  "textdomain": "pocket-library-plus",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "h3.example-block"
+    },
+    "border_color": {
+      "type": "string",
+      "default": "rgb(105 208 233)"
+    },
+    "text_color": {
+      "type": "string",
+      "default": "rgb(105 208 233)"
+    },
+    "padding": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "style": "file:./index.css"
+}

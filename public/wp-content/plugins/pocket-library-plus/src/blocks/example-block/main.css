@@ -1,0 +1,7 @@
+.example-block {
+  cursor: default;
+  display: inline-block;
+  transition:
+    color 0.3s,
+    border 0.3s;
+}
