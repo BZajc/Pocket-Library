@@ -1,24 +1,23 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "pocket-library-plus/auth",
-  "title": "Authentication",
+  "name": "pocket-library-plus/auth-modal",
+  "title": "Authentication Modal",
   "category": "text",
   "icon": "",
-  "description": "Adds an authentication tool that handles registration and login",
+  "description": "Adds an authentication modal",
   "keywords": [
     "authentication",
-    "registration",
-    "login",
-    "header"
+    "modal",
+    "login"
   ],
   "version": "1.0.0",
-  "textdomain": "",
+  "textdomain": "pocket-library-plus",
   "editorScript": "file:./index.js",
   "attributes": {
-    "showAuth": {
+    "showRegister": {
       "type": "boolean",
-      "default": "true"
+      "default": true
     }
   },
   "style": "file:./index.css"

@@ -20,7 +20,7 @@ function plp_search_form_render_cb($atts) {
             />
             <div>
                 <button type="submit" class="search-form-button">
-                    🔎
+                &#x1F50E;
                 </button>
             </div>
         </form>

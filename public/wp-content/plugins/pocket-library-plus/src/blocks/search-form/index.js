@@ -54,7 +54,7 @@ registerBlockType(block.name, {
             />
             <div>
               <button type="submit" className="search-form-button">
-                🔎
+              &#x1F50E;
               </button>
             </div>
           </form>

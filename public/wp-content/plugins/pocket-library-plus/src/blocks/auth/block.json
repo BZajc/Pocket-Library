@@ -11,6 +11,10 @@
     "textdomain": "",
     "editorScript": "file:./index.js",
     "attributes": {
+      "showAuth": {
+        "type": "boolean",
+        "default": "true"
+      }
     },
     "style": "file:./index.css"
   }

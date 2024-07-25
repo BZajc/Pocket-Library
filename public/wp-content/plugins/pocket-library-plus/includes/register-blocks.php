@@ -12,6 +12,9 @@ function plp_register_blocks() {
         ]],
         ['name' => 'auth', 'options' => [
             "render_callback" => "plp_auth_render_cb"
+        ]],
+        ['name' => 'auth-modal', 'options' => [
+            "render_callback" => "plp_auth_modal_render_cb"
         ]]
     ];
 
