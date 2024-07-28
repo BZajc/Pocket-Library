@@ -1652,7 +1652,7 @@ module.exports = window["wp"]["i18n"];
   \******************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"pocket-library-plus/auth-modal","title":"Authentication Modal","category":"text","icon":"","description":"Adds an authentication modal","keywords":["authentication","modal","login"],"version":"1.0.0","textdomain":"pocket-library-plus","editorScript":"file:./index.js","attributes":{"showRegister":{"type":"boolean","default":true}},"style":"file:./index.css"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"pocket-library-plus/auth-modal","title":"Authentication Modal","category":"text","icon":"","description":"Adds an authentication modal","keywords":["authentication","modal","login"],"version":"1.0.0","textdomain":"pocket-library-plus","editorScript":"file:./index.js","attributes":{"showRegister":{"type":"boolean","default":true}},"style":"file:./index.css","viewScript":"file:./frontend.js"}');
 
 /***/ })
 

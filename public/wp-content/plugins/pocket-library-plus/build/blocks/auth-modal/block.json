@@ -20,5 +20,6 @@
       "default": true
     }
   },
-  "style": "file:./index.css"
+  "style": "file:./index.css",
+  "viewScript": "file:./frontend.js"
 }

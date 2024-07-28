@@ -7,12 +7,19 @@ function plp_auth_render_cb($atts) {
             <?php
 
                 if($atts['showAuth']) {
-                ?>
-                    <a class="auth-container" href="#">
-                        <div class="auth-icon"><?php echo get_account_icon(); ?></div>
-                        <div class="auth-text">My Account</div>
-                    </a>
-                    </div>
+                    // Check if user is looged in and display the name
+                    if (is_user_logged_in()) {
+                        $current_user = wp_get_current_user();
+                        $user_name = $current_user->display_name;
+                    } else {
+                        $user_name = 'My Account';
+                    }
+            ?>
+    <a class="auth-container" href="#">
+        <div class="auth-icon"><?php echo get_account_icon(); ?></div>
+        <div class="auth-text"><?php echo esc_html($user_name); ?></div>
+    </a>
+    </div>
             <?php
             }
 

@@ -1,9 +1,12 @@
 /*!************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/blocks/auth-modal/main.css ***!
   \************************************************************************************************************************************************************************************/
+.wp-block-pocket-library-plus-auth-modal {
+  display: none;
+}
+
 .auth-form-overlay {
   position: fixed;
-  display: none; /* CHANGE TO FLEX AFTER DEVELOPMENT*/
   align-items: center;
   justify-content: center;
   right: 0;
@@ -11,17 +14,25 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.75);
-  /* overwriting header which has z-index 100 */
   z-index: 1000;
 }
 
+.auth-modal-opened {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .auth-form-container {
-  position: relative;
-  width: 800px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
   margin: 2rem;
+  max-width: 800px;
   border-radius: 8px;
   overflow: hidden;
   background-color: white;
+  z-index: 1001;
 }
 
 .auth-form-columns {
@@ -46,8 +57,13 @@
   padding: 1rem;
 }
 
+.auth-h2 {
+  animation: textOpacity 0.6s ease-in-out;
+}
+
 .auth-subtext {
   margin-top: 3rem;
+  animation: textOpacity 1s ease-in-out;
 }
 
 .auth-subtext-blue {
@@ -56,12 +72,6 @@
 
 .auth-form-column {
   margin: 0 3rem 3rem 3rem;
-}
-
-@media (max-width: 786px) {
-  .auth-form-column {
-    margin: 0rem;
-  }
 }
 
 .auth-topside-row {
@@ -90,6 +100,11 @@
   margin: 0.1rem;
 }
 
+.auth-active-tab {
+  color: rgb(44, 185, 220);
+  border-bottom: 2px solid rgb(44, 185, 220);
+}
+
 .auth-close-button {
   padding: 1rem;
   background: none;
@@ -116,6 +131,7 @@
   border: none;
   border-bottom: 2px solid rgb(105, 208, 233);
   transition: border-bottom 0.3s;
+  animation: inputWidth 1s forwards;
 }
 
 .auth-fieldset input:hover {
@@ -147,5 +163,70 @@
 
 #auth-register-form {
   display: none;
+}
+
+.auth-register-status,
+.auth-login-status {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 2rem;
+  border-radius: 8px;
+  animation: showStatus 0.3s forwards;
+}
+
+.auth-status-success {
+  color: rgb(53, 170, 79);
+  border: 2px solid rgb(53, 170, 79);
+}
+
+.auth-status-error {
+  color: rgb(240, 39, 39);
+  border: 2px solid rgb(240, 39, 39);
+}
+
+@media (max-width: 786px) {
+  .auth-form-column {
+    margin: 0rem;
+  }
+  .auth-form-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ANIMATIONS */
+
+@keyframes inputWidth {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes textOpacity {
+  from {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes showStatus {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  75% {
+    scale: 1.1;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
 }
 

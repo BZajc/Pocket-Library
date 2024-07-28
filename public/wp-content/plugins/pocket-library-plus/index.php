@@ -29,3 +29,5 @@ foreach($allFiles as $filename) {
 
 //  Hooks
 add_action('init', 'plp_register_blocks');
+add_action('rest_api_init', "plp_rest_api_init");
+add_action('wp_enqueue_scripts', "plp_enqueue_scripts");
