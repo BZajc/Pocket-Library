@@ -8,7 +8,7 @@
     "description": "Adds an authentication tool that handles registration and login",
     "keywords": ["authentication", "registration", "login", "header"],
     "version": "1.0.0",
-    "textdomain": "",
+    "textdomain": "pocket-library-plus",
     "editorScript": "file:./index.js",
     "attributes": {
       "showAuth": {

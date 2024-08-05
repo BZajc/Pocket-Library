@@ -12,7 +12,7 @@ function plp_search_form_render_cb($atts) {
         <form class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
             <input
                 type="text"
-                placeholder="<?php esc_html_e("Search", "pocket-library-plus"); ?>"
+                placeholder="<?php esc_html_e("Search Posts", "pocket-library-plus"); ?>"
                 class="search-form-input"
                 style="<?php echo $styleAttr; ?>"
                 name="s"

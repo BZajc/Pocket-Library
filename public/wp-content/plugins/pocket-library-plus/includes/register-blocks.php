@@ -15,6 +15,9 @@ function plp_register_blocks() {
         ]],
         ['name' => 'auth-modal', 'options' => [
             "render_callback" => "plp_auth_modal_render_cb"
+        ]],
+        ['name' => 'forgot-password', 'options' => [
+            "render_callback" => "plp_forgot_password_render_cb"
         ]]
     ];
 

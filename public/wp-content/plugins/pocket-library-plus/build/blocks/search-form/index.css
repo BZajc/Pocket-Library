@@ -3,13 +3,14 @@
   \*************************************************************************************************************************************************************************************/
 .wp-block-pocket-library-plus-search-form {
   padding: 0.5rem;
-  border-radius: 8px;
 }
 
 .search-form {
   display: flex;
   position: relative;
   justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
   border-bottom: 2px solid rgb(105, 208, 233);
   transition: border-bottom 0.3s;
 }

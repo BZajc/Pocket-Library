@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pocket-library-plus/forgot-password",
+  "title": "Forgot Password",
+  "category": "widgets",
+  "icon": "",
+  "description": "Adds forgot password form",
+  "keywords": [
+    "form",
+    "forgot password",
+    "custom url"
+  ],
+  "version": "1.0.0",
+  "textdomain": "pocket-library-plus",
+  "editorScript": "file:./index.js",
+  "attributes": {},
+  "style": "file:./index.css"
+}
