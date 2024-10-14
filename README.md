@@ -23,6 +23,8 @@ Gutenberg is WordPress's block editor, enabling users to create rich content lay
 A custom plugin created to enhance Pocket Library's functionality. This plugin introduces new blocks, such as a search form and an authentication modal, along with their accompanying functionalities. 
 The custom plugin expands the capabilities of the Pocket Library and is core implementation for the website.
 
+Plugin files: https://github.com/BZajc/Pocket-Library/tree/main/public/wp-content/plugins/pocket-library-plus
+
 ### 3. RWD (Responsive Web Design)
 Pocket Library is designed to be fully responsive, ensuring that it good and functions well on all devices, from desktops to smartphones.
 
